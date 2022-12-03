@@ -1,18 +1,144 @@
-Hello Friends
+							GIT																GIT
+
+Git is a repository that is used for source code management in software development.
+It allows multiple developers to work together.
+The main purpose of Git is code reusability.
+
+Types
+
+SVN - It is a type of source code management system before Git
+Git - It has local and remote repositories
 
 
-Hi.. My name is Pallavi
-Hi this is ramya
-Hi this kalpana
-Kalpana second change
 
-Hi..Second day of git
-Trying to push from source tree - not working
-Trying to commit and push from source tree
+GitHub(remote repo)  
 
-I am committing some info from the class
-i am nandini
+It is basically software as a service. 
+It is a storage that everyone can access by URL. 
+It is a centralized place to keep the code.
 
-I am pallavi
 
-Taken pull resolved conflict
+
+Git(local repo)
+
+It will be accessed by you only.
+It will be used when you need to commit the code.
+
+
+
+
+How to add a text file to GitHub
+
+
+1. Install git in a local repository (git bash in windows, cmd prompt in Mac)
+
+2. Create a folder called testgit (creating a folder on the desktop is a best practice. Keep the folder name as the same name as the remote repository name as a best practice)
+
+3. Git init (open terminal -> cd folder -> git init) - It will create a new git instance for a project. 
+
+4. Create a text file called sample.txt in the testgit folder; write something and save it. 
+
+5. Git status - It will check the status of the repository
+
+6. Git add sample.txt (git add . Will be used when you want to add more than one file) - The file will be added to the git repo. Also called staging
+
+7. Git commit -m "message" - save those changes to the repository's history with a message
+
+8. Create a remote repository by visiting GitHub.com (you should have a GitHub account before you proceed) - 
+   follow the steps to create a remote repository
+   (GitHub.com -> new -> name of the repository -> public -> create repository
+   
+9. Git remote add origin link of the GitHub repo - It will connect your local repository to the remote repository
+
+10. Git push origin master - push the file to the remote repository. Now the file will be added to the remote repository.
+
+
+
+How to clone a text file from the GitHub
+
+
+It is used to check out the text file from GitHub on your computer.
+
+1. Create a folder on the desktop (creating a folder on the desktop is a best practice. Keep the folder name as the same name as the remote repository name as a best practice)
+
+2. Go to the git working directory (That is created in the above step)
+
+3. Git clone URL (URL of the GitHub repository where the text file resides)
+
+4. Modify the file by adding something
+
+5. Git add .
+
+6. Git commit -m “message”
+
+7. Git push origin main
+
+
+
+
+
+How to add a java project to the GitHub
+
+
+1. Create a folder called gitcode then execute the command git init (open terminal -> cd gitcode -> git init)
+
+2. Create a maven project in the eclipse (It can be a normal project also)
+
+3. In eclipse change the location of the folder to gitcode instead of the default location
+
+4. Create a java class file and execute the file
+
+5. Go to the git working directory in the git bash or cmd prompt
+
+6. Git add . 
+
+7. Git commit -m “message”
+
+8. Create a remote repository on the GitHub
+
+9. Git remote add origin URL (URL of the GitHub repository that is created in the above step)
+
+10. Git push origin master
+
+
+
+How to clone a java project from the GitHub
+
+It is used to check out the java project from GitHub on your computer.
+
+1. Create a folder on the desktop 
+
+2. Git clone URL (URL of the GitHub repository)
+
+3. Create a project in the eclipse
+
+4. In eclipse change the location of the folder to gitcode instead of the default location (It should be the folder where pom.xml resides)
+
+5. Do some changes to the file
+
+6. Git add .
+
+7. Git commit -m “message”
+
+8. Git push origin master
+
+
+************Very Important*****************
+
+Make sure your code is up to date in order to avoid merge conflicts.  (Make sure the code is pulled from the repository by using git pull before you use git push)
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
